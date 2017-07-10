@@ -107,6 +107,8 @@ Then, I incorporated Python generator to my model (*model.py*). When the epochs 
 
 Training data was chosen to keep the vehicle driving on the road. I used a combination of center lane driving, recovering from the left and right sides of the road. The images are flipped and the sign of the steering is taken the negative value to augment the data.
 
+[FileZilla](https://filezilla-project.org/) is used to manage the local and remote data and files.
+
 ### Model Architecture and Training Strategy
 
 The overall strategy for deriving a model architecture was to train the network to learn the driving behavior and finally enable the network to drive a car on the given track in the simulator.
